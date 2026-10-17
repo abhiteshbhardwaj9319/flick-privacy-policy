@@ -1,48 +1,62 @@
-# Privacy Policy for Flick
+# Flick Privacy Policy
 
-**Last updated: March 22, 2026**
+_Last updated: October 2026_
 
-## Overview
-Flick ("the App") is a phone storage cleaner developed by Abhitesh Bhardwaj. This policy explains what data is collected and how it is used.
+## What This App Does
 
-## Data We Collect
-The App itself does NOT collect, store, or transmit any of your personal files, photos, videos, or documents. All file scanning and cleaning happens 100% on your device.
+Flick helps you look back at your photos (your timeline, photos from this day in past years, and albums) and clear the ones you no longer need: duplicates, forwarded media, old screenshots and other files. All scanning, sorting and clearing happens entirely on your device.
 
-**No account or login is required to use this app.**
+## Data Collection
 
-### Data Collected by Third-Party SDKs
+Flick does NOT collect, transmit, or store any of your files or file contents on external servers. Specifically:
 
-**Google AdMob (Advertising)**
-- Device advertising ID
-- Crash logs and diagnostics
-- Ad interaction data
-- Purpose: To serve ads and measure ad performance
-- Google's privacy policy: https://policies.google.com/privacy
+• Your files are never uploaded anywhere
+• No file contents are analyzed in the cloud
+• No personal information is collected by Flick itself
+• No analytics on which files you keep or delete
 
-**Razorpay (Payments)**
-- Payment information is handled entirely by Razorpay when you make a voluntary purchase (Remove Ads or Support Developer)
-- We do not store any payment or financial information
-- Razorpay's privacy policy: https://razorpay.com/privacy/
+The Google AdMob and Google Play Billing services described below collect some data (such as an advertising ID, or payment details handled by Google) only when you choose to watch an ad or make a purchase. See the 'Advertising' and 'In-App Purchases' sections for details.
 
-## Permissions
-- **Storage Access**: Used to scan and manage files on your device. Files are never uploaded or transmitted.
-- **Internet**: Required for serving ads and processing payments.
-- **Vibration**: Used for haptic feedback.
+## Storage Permission (MANAGE_EXTERNAL_STORAGE)
 
-## Data Sharing
-We do not sell your data. Data collected by AdMob is shared with Google for advertising purposes only.
+Flick requests the MANAGE_EXTERNAL_STORAGE permission because it is a file management tool that needs to:
 
-## Data Retention
-- All app data (scan history, points, badges) is stored locally on your device
-- Deleted files go to an in-app trash folder and are automatically removed after 30-90 days
-- Uninstalling the app removes all local data
+• Scan files across multiple directories (DCIM, Downloads, Pictures, WhatsApp media folders)
+• Detect duplicate files by comparing file hashes across different storage locations
+• Identify forwarded media and sent duplicates in WhatsApp folders
+• Move files to the app-private trash directory for safe soft-deletion with 30-day recovery
 
-## Children's Privacy
-The App is rated for all ages. Ads shown are suitable for children and served through Google's certified ad network.
+Without this permission, the app cannot fulfill its core purpose of cross-directory file management and duplicate detection. The permission is used solely for on-device file operations — no file data leaves your device.
 
-## Changes to This Policy
-We may update this policy from time to time. Changes will be reflected with an updated date at the top.
+## Trash / Recycle Bin
+
+When you delete files through Flick, they are moved to an app-private trash directory on your device (not permanently deleted). Files in trash are automatically purged after 30 days (90 days for premium users). You can restore files from trash at any time before they expire.
+
+## Advertising
+
+Flick shows an ad only when you choose to watch one (for example, to double your points after a session). Ads are provided by Google AdMob, which may collect device information and advertising identifiers as described in Google's Privacy Policy. Premium users never see ads. Flick does not use ad data for anything else.
+
+## In-App Purchases
+
+Flick Premium is purchased through Google Play's billing system. Google handles your payment details directly; Flick does not receive, collect, or store them. See Google's privacy policy at https://policies.google.com/privacy for details.
+
+## Notifications
+
+If you allow notifications, Flick can send one notification a day built from your own photos (for example, photos from this date in past years) and, rarely, a low-storage alert. They are created on your device and nothing is sent to a server. If you turn on "Show a photo", a small copy of that photo is kept in Flick's private storage to show in the notification. You can change the time, turn previews off, or turn notifications off in Flick's Settings or your device settings.
+
+## Third-Party Services
+
+The app uses the following third-party services:
+
+• Google AdMob — for displaying advertisements (collects advertising ID, crash/diagnostics, ad interaction data)
+• Google Play Billing — for the Flick Premium purchase (collects payment details directly; Flick never sees them)
+
+Each service has its own privacy policy governing data collection.
+
+## Data Security
+
+All app data (scan results, settings, progress, and the feelings you tag photos with) is stored only on your device, in Flick's private storage, which Android keeps separate from other apps. No data is transmitted to external servers.
 
 ## Contact
-If you have questions about this privacy policy, contact us at:
-iamlavi777@gmail.com
+
+If you have questions about this privacy policy, please contact us at iamlavi777@gmail.com.
