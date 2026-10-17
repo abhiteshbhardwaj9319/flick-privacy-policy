@@ -10,27 +10,26 @@ Flick helps you look back at your photos (your timeline, photos from this day in
 
 Flick does NOT collect, transmit, or store any of your files or file contents on external servers. Specifically:
 
-• Your files are never uploaded anywhere
-• No file contents are analyzed in the cloud
-• No personal information is collected by Flick itself
-• No analytics on which files you keep or delete
+- Your files are never uploaded anywhere
+- No file contents are analyzed in the cloud
+- No personal information is collected by Flick itself
+- No analytics on which files you keep or delete
 
 The Google AdMob and Google Play Billing services described below collect some data (such as an advertising ID, or payment details handled by Google) only when you choose to watch an ad or make a purchase. See the 'Advertising' and 'In-App Purchases' sections for details.
 
-## Storage Permission (MANAGE_EXTERNAL_STORAGE)
+## Photos, Videos and Audio
 
-Flick requests the MANAGE_EXTERNAL_STORAGE permission because it is a file management tool that needs to:
+Flick asks for access to your photos, videos and audio (on Android 14 and later you can share only some photos). It uses this to:
 
-• Scan files across multiple directories (DCIM, Downloads, Pictures, WhatsApp media folders)
-• Detect duplicate files by comparing file hashes across different storage locations
-• Identify forwarded media and sent duplicates in WhatsApp folders
-• Move files to the app-private trash directory for safe soft-deletion with 30-day recovery
+- Find your photos from the camera, screenshots, downloads and WhatsApp
+- Show photos from this day, your timeline and albums
+- Find duplicate copies by comparing files on your device
 
-Without this permission, the app cannot fulfill its core purpose of cross-directory file management and duplicate detection. The permission is used solely for on-device file operations — no file data leaves your device.
+Flick does not ask for access to all your files. Other files (such as PDFs or APKs) are only touched when you choose them yourself in Android's file picker. None of this leaves your device.
 
 ## Trash / Recycle Bin
 
-When you delete files through Flick, they are moved to an app-private trash directory on your device (not permanently deleted). Files in trash are automatically purged after 30 days (90 days for premium users). You can restore files from trash at any time before they expire.
+When you clear photos, videos or audio, they are not deleted right away. On Android 11 and later they go to Android's own trash after you confirm (once per batch); on older Android they go to a private trash folder in Flick. Either way you can restore them from Recently cleared for 30 days. With Flick Premium, Flick keeps a private copy for 90 days. Files you choose in Android's file picker are deleted right away, after you confirm.
 
 ## Advertising
 
@@ -48,8 +47,8 @@ If you allow notifications, Flick can send one notification a day built from you
 
 The app uses the following third-party services:
 
-• Google AdMob — for displaying advertisements (collects advertising ID, crash/diagnostics, ad interaction data)
-• Google Play Billing — for the Flick Premium purchase (collects payment details directly; Flick never sees them)
+- Google AdMob — for displaying advertisements (collects advertising ID, crash/diagnostics, ad interaction data)
+- Google Play Billing — for the Flick Premium purchase (collects payment details directly; Flick never sees them)
 
 Each service has its own privacy policy governing data collection.
 
