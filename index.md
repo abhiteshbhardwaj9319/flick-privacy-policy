@@ -39,7 +39,11 @@ Flick shows an ad only when you choose to watch one (for example, to double your
 
 ## In-App Purchases
 
-Flick Premium is purchased through Google Play's billing system. Google handles your payment details directly; Flick does not receive, collect, or store them. See Google's privacy policy at https://policies.google.com/privacy for details.
+Flick Premium is a 1-year pass bought through Google Play's billing system. It does not renew by itself. Google handles your payment details directly; Flick does not receive, collect, or store them. See Google's privacy policy at https://policies.google.com/privacy for details.
+
+## Ratings
+
+Now and then, after a good cleanup, Flick may ask Google Play to show its rating card. Google shows it (or not) and handles your rating; Flick never sees who rated or what.
 
 ## Sharing
 
@@ -48,6 +52,10 @@ Sharing only happens when you tap Share: Flick creates the image on your phone a
 ## Pip Noticing Photos
 
 Pip can recognise what is in a photo (for example food, a dog or a beach) using Google ML Kit, which runs on your phone. Photos and what Pip recognises never leave your phone and are not saved. ML Kit sends Google anonymous technical information to keep it working well (device model, Android and app version, an install ID, speed and error codes); never photos. You can turn this off in Settings: "Pip notices what is in photos".
+
+## Smart Groups
+
+To find look-alike, blurry and dark photos, documents and photos of screens, Flick looks at each photo once, on your phone, and keeps a small summary in its private storage so it does not have to look again: a fingerprint number, how sharp and how bright the photo is, and whether it looks like a document or a screen. The summary never leaves your phone and is removed when you uninstall Flick.
 
 ## Notifications
 
@@ -58,7 +66,7 @@ If you allow notifications, Flick can send one notification a day built from you
 The app uses the following third-party services:
 
 - Google AdMob — for displaying advertisements (collects advertising ID, crash/diagnostics, ad interaction data)
-- Google Play Billing — for the Flick Premium purchase (collects payment details directly; Flick never sees them)
+- Google Play Billing — for the Flick Premium 1-year pass (collects payment details directly; Flick never sees them)
 - Google ML Kit — for Pip noticing what is in photos, on your phone (sends anonymous technical information such as device model, app version, an install ID, speed and errors; never photos)
 
 Each service has its own privacy policy governing data collection.
